@@ -3,6 +3,7 @@ import { View, ActivityIndicator } from "react-native";
 
 const Spinner = ({ size }) => {
   return (
+    // style the view to center the spinner
     <View style={styles.spinnerStyle}>
       {/* Native Spinner */}
       <ActivityIndicator size={size || "large"} />
